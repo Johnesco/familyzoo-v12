@@ -1,15 +1,4 @@
 south
 east
-take feed
-drop feed
+look
 west
-west
-west
-examine press
-east
-east
-take penny
-west
-west
-put penny in press
-inventory
