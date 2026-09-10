@@ -11,11 +11,11 @@ You can see a souvenir penny, a lunchbox, and a zookeeper here.
 
 > east
 Petting Zoo
-A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted on a post, and an info plaque is posted by the gate. The main path is back to the west.
+A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted on a post. The main path is back to the west.
 
 > look
 Petting Zoo
-A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted on a post, and an info plaque is posted by the gate. The main path is back to the west.
+A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted on a post. The main path is back to the west.
 
 > west
 Main Path

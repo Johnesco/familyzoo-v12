@@ -1,32 +1,30 @@
-# Family Zoo — v12 — Event Handlers
+# Family Zoo — v12: Event Clauses
 
-Hooks into stdlib action events so dropped feed triggers goats to rush in and a penny dropped in a press becomes a pressed souvenir. Separates silent state mutations from chained events that produce player-facing text.
+The snake, and the three places a story can interrupt the engine: before an action, after it, and on it. This is Chord's answer to event handlers.
 
-Step 12 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 12 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- registerEventHandler for silent state changes
-- chainEvent returning ISemanticEvent for narrated reactions
-- The full catalog of if.event.* triggers (taken, dropped, put_in, opened, etc.)
-- The item-transformation pattern: remove input, create output, message the player
-- Unique handler keys for each chain registration
+- `on the player <verb>ing` — replace the standard response
+- `before` — refuse or redirect an action
+- `after the player entering` — react to arrival
+- Where a clause belongs: on the thing, not in a central handler
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v12.story`](./familyzoo-v12.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v12-event-clauses.md`](./docs/v12-event-clauses.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v12
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v12
-python C:/code/ifhub/tools/ship.py familyzoo-v12
+npx sharpee play
+npx sharpee test          # replays familyzoo-v12.tests.json
+python ../tools/build.py familyzoo-v12 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).
