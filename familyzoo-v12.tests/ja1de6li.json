@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v12",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,56 +12,64 @@
             "is": "Sharpee tutorial step 12 — `on`, `before`, and `after the player entering`."
           }
         ]
-      }
+      },
+      "id": "10oss3ts",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "dvzpin7i",
+      "type": "boot"
     },
     {
-      "type": "turn",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      },
       "command": "south",
-      "assertions": {
-        "contains": [
-          "Main Path",
-          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
-        ]
-      }
+      "id": "zluybqgj",
+      "type": "turn"
     },
     {
-      "type": "turn",
+      "assertions": {
+        "contains": [
+          "Petting Zoo",
+          "A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted"
+        ]
+      },
       "command": "east",
+      "id": "dhls3m8f",
+      "type": "turn"
+    },
+    {
       "assertions": {
         "contains": [
           "Petting Zoo",
           "A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted"
         ]
-      }
-    },
-    {
-      "type": "turn",
+      },
       "command": "look",
-      "assertions": {
-        "contains": [
-          "Petting Zoo",
-          "A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted"
-        ]
-      }
+      "id": "p37r8nj5",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "west",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "west",
+      "id": "gs4w41hm",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "ja1de6li"
 }
