@@ -13,7 +13,7 @@ Step 12 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tu
 
 ## The source
 
-The whole step is one file: [`familyzoo-v12.story`](./familyzoo-v12.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v12-event-clauses.md`](./docs/v12-event-clauses.md).
+The whole step is one file: [`familyzoo-v12.story`](./familyzoo-v12.story) — the step before it plus the ideas above. Where it sits in the trail is on the [group page](https://johnesco.github.io/familyzoo/#familyzoo-v12).
 
 ## Playing and testing
 
