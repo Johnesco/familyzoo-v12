@@ -479,7 +479,7 @@ The warning sign is fixed in place.
 Taken.
 
 > turn on flashlight
-The flashlight switches on, banishing the darkness.
+You switch on the flashlight.
 
 > turn on radio
 The radio hums to life.
