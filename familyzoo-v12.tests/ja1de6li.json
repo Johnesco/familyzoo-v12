@@ -11,20 +11,14 @@
             "id": "info.description",
             "is": "Sharpee tutorial step 12 — `on`, `before`, and `after the player entering`."
           }
-        ]
-      },
-      "id": "10oss3ts",
-      "type": "opening"
-    },
-    {
-      "assertions": {
+        ],
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
       },
-      "id": "dvzpin7i",
-      "type": "boot"
+      "id": "10oss3ts",
+      "type": "opening"
     },
     {
       "assertions": {
